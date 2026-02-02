@@ -1,0 +1,121 @@
+.navbar {
+  background-color: white;
+  padding: 15px 20px;
+ 
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+  transition: 1s ease;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: white;
+}
+h1 {
+  text-align: center;
+  
+  font-size: 36px;
+}
+h2{
+  margin-left: 100px;
+  justify-content: right;
+  font-size: 50px;
+}
+img {
+  display: block;
+  margin: 20px ;
+  max-width:150%;
+  height: auto;
+  border-radius: 8px;
+  
+}
+p{
+  text-align: center;
+  font-size: 24px;
+}
+.game-card {
+  
+ display: flex;
+  gap: 20px;
+  
+
+  
+}
+#eldenring{
+  justify-content: right;
+  
+}
+#eldendescription{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+.img-link {
+  width: 200px;
+ transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.img-link:hover {
+  transform: scale(1.05);
+}
+#witcherdescription{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+#skyrimdescription{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+.game-card  {
+  justify-content: center;
+  
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.game-card {
+  animation: fadeIn 1s ease-in;
+}
+img{
+  transform: transform 0,8s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.game-card {
+  transform: scaleY(1,5);
+}
+.sells-container {
+  display: flex;
+  gap: 40px;        
+  width: 100%;   
+  justify-content: center;
+}
+
+.sells {
+  width: 550px;
+  text-align: center;
+}
+
+.sells img {
+  width: 100%;
+  height: auto;
+}
